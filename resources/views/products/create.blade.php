@@ -27,19 +27,19 @@
                                 <x-input id="price" class="block mt-1 w-full" type="text" name="price" :value="old('price')" required />
                             </div>
 
-                            <!-- YouTube ID -->
-                            <div class="mt-4">
-                                <x-label for="youtube_id" :value="__('YouTube ID')" />
+{{--                            <!-- YouTube ID -->--}}
+{{--                            <div class="mt-4">--}}
+{{--                                <x-label for="youtube_id" :value="__('YouTube ID')" />--}}
 
-                                <x-input id="youtube_id" class="block mt-1 w-full" type="text" name="youtube_id" :value="old('youtube_id')" />
-                            </div>
+{{--                                <x-input id="youtube_id" class="block mt-1 w-full" type="text" name="youtube_id" :value="old('youtube_id')" />--}}
+{{--                            </div>--}}
 
-                            <!-- Photo -->
-                            <div class="mt-4">
-                                <x-label for="photo" :value="__('Photo')" />
+{{--                            <!-- Photo -->--}}
+{{--                            <div class="mt-4">--}}
+{{--                                <x-label for="photo" :value="__('Photo')" />--}}
 
-                                <input type="file" id="photo" class="block mt-1 w-full" name="photo" />
-                            </div>
+{{--                                <input type="file" id="photo" class="block mt-1 w-full" name="photo" />--}}
+{{--                            </div>--}}
 
                             <div class="flex items-center mt-4">
                                 <x-button>
